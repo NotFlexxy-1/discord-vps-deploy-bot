@@ -16,6 +16,7 @@ Simple docker build scripts for multiple Linux-based VPS containers.
 
 - Ubuntu
 
+- Windows
 
 ## Installation
 
