@@ -59,6 +59,11 @@ run_cmd "Installing Python modules" "pip install --upgrade pip && pip install di
 
 run_cmd "Building Debian Docker image" "docker build -t debian-vps -f Dockerfile.debian ."
 run_cmd "Building Ubuntu Docker image" "docker build -t ubuntu-vps -f Dockerfile.ubuntu ."
+run_cmd "Building Arch Docker image" "docker build -t arch-vps -f Dockerfile.arch ."
+run_cmd "Building Fedora Docker image" "docker build -t fedora-vps -f Dockerfile.fedora ."
+run_cmd "Building Kali Docker image" "docker build -t kali-vps -f Dockerfile.kali ."
+run_cmd "Building Windows Docker image" "docker build -t windows -f Dockerfile.windows ."
+
 
 # ==============================
 # User Config
@@ -116,8 +121,7 @@ fi
 echo -e "${GREEN}"
 echo "╔═══════════════════════════════════════╗"
 echo "║  Installation Complete! 🚀            ║"
-echo "║  Script made with ❤️ by FlaxyPlayz   ║"
+echo "║  Script made with ❤️ by NotFlexxy (CL)║"
 echo "╚═══════════════════════════════════════╝"
 echo -e "${NC}"
-echo " Please there was a fault, clone the repo and give admin role, bot token etc in bot.py "
-echo " But first clone this https://github.com/NotFlexxy-1/vps-deploy-bot "
+echo " Check bot.py and if you found the bot configuration wasnt applied, then you must manually do it "
