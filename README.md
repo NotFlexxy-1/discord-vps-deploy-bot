@@ -20,7 +20,7 @@ Simple docker build scripts for multiple Linux-based VPS containers.
 
 ## Installation
 
-- bash <(curl -fsSL https://github.com/NotFlexxy-1/discord-vps-deploy-bot/main/install.sh)
+- bash <(curl -fsSL https://raw.githubusercontent.com/NotFlexxy-1/discord-vps-deploy-bot/refs/heads/main/install.sh)
 
 ## Credits
 
