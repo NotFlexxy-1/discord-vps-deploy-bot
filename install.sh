@@ -12,7 +12,7 @@ clear
 echo -e "${CYAN}"
 echo "╔═══════════════════════════════════════╗"
 echo "║      VPS Deploy Bot Installer 🚀      ║"
-echo "║         Script by FlaxxyPlayz         ║"
+echo "║       Script by NotFlexxy (CrushLabs) ║"
 echo "╚═══════════════════════════════════════╝"
 echo -e "${NC}"
 sleep 2
