@@ -68,10 +68,10 @@ OS_OPTIONS = {
         "description": "Innovative features with Red Hat backing"
     },
         "ubuntu": {
-        "image": "crush-vps", 
-        "name": "A OS Made By Crushlabs", 
+        "image": "windows", 
+        "name": "Windows", 
         "emoji": "🐧",
-        "description": "Stable and widely-used Linux distribution"
+        "description": "Stable and widely-used Windows Distribution"
 }
 
 # Animation frames for different states
